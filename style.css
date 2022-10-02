@@ -60,4 +60,28 @@ html {
 .footerContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: rgb(178, 175, 175);
+    text-decoration: none;
+}
+
+/* Tips */
+
+.tipsFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    padding: .2rem;
 }
